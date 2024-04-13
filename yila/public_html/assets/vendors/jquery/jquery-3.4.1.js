@@ -470,7 +470,6 @@ function isArrayLike( obj ) {
 		return false;
 	}
 
-
 	return type === "array" || length === 0 ||
 		typeof length === "number" && length > 0 && ( length - 1 ) in obj;
 }
